@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Helvetica'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+			.remark-inline-code { background: #F0F0F0; padding: 4px; border-radius: 2px; }
+
+			iframe { width: 100%; height: 100%; }
+      p, li { line-height: 1.4; }
+      td { min-width: 170px; border- }
+      table { border-collapse: collapse; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# Subsetting the platform ?!
+---
+class: center, middle
+# <span style="color: hotpink;">[WIP]!</span>
+
+## <i>-1 To prevent accidental submission.</i>
+
+---
+class: center, middle
+## We have an amazing tool at our disposal with<br><span style="color: hotpink">Feature Policy</span>.
+
+---
+class: center, middle
+## How can we help developers stay on a<br><span style="color: hotpink">sane</span> / <span style="color: hotpink">performant</span><br> path?
+
+---
+class: center, middle
+## Use <span style="color: hotpink">Feature Policy</span>!
+
+---
+class: center, middle
+## Restrict known bad APIs?
+
+### "Remove" <span style="color: hotpink">Sync XHR</span>?
+
+---
+class: center, middle
+## What about removing features for a <span style="color: hotpink">faster</span> engine?
+
+---
+class: center, middle
+## <span style="color: hotpink">EXAMPLE</span>
+
+---
+class: center, middle
+## If the <span style="color: hotpink">HTML parser</span> just deals with a subset of HTML, can it be faster?
+
+---
+class: center, middle
+## If we remove some <span style="color: hotpink">CSS selectors</span> can we make<br><span style="color: hotpink">style recalc</span> 10x faster?
+
+---
+
+class: center, middle
+## Fin <span style="color: hotpink">\o/</span>
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+			slideshow.on('afterShowSlide', function (slide) {
+			const container = document.querySelector('.remark-slide-container.remark-visible .remark-slide-content');
+			const iframe = document.querySelector('.remark-slide-container.remark-visible iframe');
+
+			if (iframe) {
+        container.style.padding = '0.5em';
+			}
+
+				// Slide is the slide being navigated to
+			});
+    </script>
+  </body>
+</html>
